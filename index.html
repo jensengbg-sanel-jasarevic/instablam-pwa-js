@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="manifest" href="manifest.webmanifest">
+        <link rel="stylesheet" href="css/style.css">
+        <!--Not working-->
+        <link rel="canonical" href="https://acrid-water.surge.sh"/>
+        <meta name="theme-color" content="#405DE6"/>
+        <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+        <link rel="shortcut icon" href="img/16x16.ico" type="image/x-icon" sizes="16x16">
+        <link rel="shortcut icon" href="img/32x32.ico" type="image/x-icon" sizes="32x32">
+        <link rel="shortcut icon" href="img/48x48.ico" type="image/x-icon" sizes="48x48">
+        <script src="script/script.js" charset="utf-8"></script>
+    <title>Instablam</title>
+</head>
+<body>
+    <header class="header-title">
+        <h1>Instablam</h1>
+    </header>
+    <main>
+        <section class="camera-area">
+            <button id="startStream" >Enable camera</button>
+            <button id="locationBtn" >Share location</button>
+            <video src="" autoplay poster="" controls>
+            </video>
+            <button id="takePhoto">Take a photo</button>
+            <p class="errorMessage"></p>
+        </section>
+
+        <section class="gallery-area">
+
+            <section class="gallery">
+                    <h1>Gallery</h1>
+
+                    <div>
+                        <img src="img/pexels-photo-1.jpeg" alt="gallery image"> 
+                        <p>12:12 <span>Göteborg</span></p>
+                        <button class="deleteBtn">Delete photo</button>
+                    </div>
+                    <div>
+                        <img src="img/pexels-photo-2.jpeg" alt="gallery image"> 
+                        <p>13:13 <span>Stockholm</span></p>
+                        <button class="deleteBtn">Delete photo</button>
+                    </div>
+                </section>
+        </section>
+
+        <footer>
+           <p>Instablam</p>
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    display: block;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+                        ". camera ."
+                        ". gallery ."
+                        ". footer ."
+                        ;
+}
+
+
+.header-title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.camera-area {
+    padding: 1rem;
+    background-color:#C1C1C1;
+    grid-area: camera;
+    display: flex;
+    flex-direction: column;
+    /*Align items to center, to avoid them from stretching */
+    align-items: center;
+}
+
+.errorMessage {
+    color:  #FF0D00;
+}
+
+
+.gallery-area {
+    background-color:#C1C1C1;
+    grid-area: gallery;
+    font-weight: bold;
+    padding: 1rem;
+}
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.gallery > div > img {
+    margin: 10px;
+    height: 150px;
+    width: 300px;
+    border-radius: 10%;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+footer {
+    grid-area: footer;
+    padding: 1rem;
+    background-color: #405DE6;
+    color: white;
+    text-align: center;
+}
+
+
+
+#startStream, #locationBtn {
+    min-width: 100%;
+    background-color:#FFAE42;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#takePhoto {
+    background-color: #405DE6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.deleteBtn {
+    background-color: #FF0D00;
+    border: none;
+    color: white;
+    padding: 10px 12px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
