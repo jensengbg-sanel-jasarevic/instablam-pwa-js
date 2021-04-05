@@ -5,7 +5,6 @@
 1. [Inlämning](#2-inlämning)
 1. [Bedömning](#3-bedömning)
 
-
 ---
 ### 1. Uppdragsbeskrivning
 Du ska bygga en PWA med Vue som kombinerar de tekniker vi har gått igenom i kursen.
