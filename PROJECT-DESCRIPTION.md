@@ -73,7 +73,6 @@ Ditt projekt ska vara ett GitHub-repo. Det ska innehålla en README.md fil som i
 + Notification API
 + Push API eller Safaris motsvarighet
 
-
 Tips: du kan använda https://push-notifications-admin.surge.sh/ för att skicka push-notiser.
 
 
