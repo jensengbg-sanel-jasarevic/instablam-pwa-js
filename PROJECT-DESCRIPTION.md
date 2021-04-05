@@ -18,7 +18,6 @@ Användaren ska kunna bläddra i galleriet, ta bort enskilda bilder, ladda ner e
 
 När man tagit en bild kan en notifiering visas, som innehåller bilden.
 
-
 #### Testa din app - webbläsare
 Använd så många olika webbläsare som möjligt när du testar din app. Du kan till exempel svara med en tabell, med emojis eller text. Samarbeta gärna med klasskamrater så att ni kan testa era appar i så många olika miljöer som möjligt.
 Testa gärna i fler webbläsare och miljöer än de som står här. Exempel på tabell:
