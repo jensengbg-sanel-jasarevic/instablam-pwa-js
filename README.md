@@ -1,4 +1,4 @@
-## Sanel Jasarevic
+### Sanel Jasarevic
 * Domain name: https://acrid-water.surge.sh
 ###
 * Github repo: https://github.com/jensengbg-sanel-jasarevic/instablam-pwa-js
