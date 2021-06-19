@@ -5,11 +5,11 @@
 * Github repository: https://github.com/jensengbg-sanel-jasarevic/instablam-pwa-js
 
 Appen har byggts med två grundläggande funktioner, en funktions kod som hanterar galleriet och en som hanterar photo knappen.
-Gallery funktionskoden fungerar när DOM element har laddats upp, photo funktionen fungerar bara om MediaDevice finns på webbläsaren.
+Gallery funktionskoden körs igång när hela webbsidan har laddat, photo funktionen körs bara om MediaDevice finns på webbläsaren.
 
-När man klickar på photo knapp skapas en DIV element med img, tid, plats, download, delete knapp och läggs till i gallery sektionen. Delete knappen tar bort DIV elementet från parent node (gallery section). 
+När man klickar på photo knappen skapas en DIV element med img, tid, plats, download, delete knapp och läggs till i en 'gallery sektion'. Delete knappen tar bort samma DIV element från dens parent node (gallery sektion). 
 
-Webbläsare frågar endast om access till camera och geolocation när användare själv trycker på knapparna för att dela det. Photo knapp kommer visa en error text på html om klickar men inte delar camera. Photo knapp kan fungera utan geolocation. Användare får välja om man vill dela sin location till webbläsare.
+Webbläsare frågar endast om access till camera och geolocation när användare själv trycker på knapparna för att dela det. Under photo knapp kommer det visa error om man klickar men väljer att inte dela kamera. Photo knapp kan fungera utan geolocation. Användare får själv välja om man vill dela sin location till webbläsare.
 
 #### Testa din app - Lighthouse
 
