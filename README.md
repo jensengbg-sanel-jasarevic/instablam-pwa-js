@@ -1,5 +1,6 @@
 ### Sanel Jasarevic
-* Domain name: https://acrid-water.surge.sh
+* Domain name: acrid-water.surge.sh<br>
+* URL: https://acrid-water.surge.sh
 ###
 * Github repo: https://github.com/jensengbg-sanel-jasarevic/instablam-pwa-js
 
