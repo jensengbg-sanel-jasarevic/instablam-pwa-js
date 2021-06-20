@@ -1,8 +1,9 @@
-### Sanel Jasarevic
-* Domain name: acrid-water.surge.sh<br>
-* URL: https://acrid-water.surge.sh
+#### URL
+https://acrid-water.surge.sh
+
 ###
-* Github repository: https://github.com/jensengbg-sanel-jasarevic/instablam-pwa-js
+* Github repository: https://github.com/jensengbg-sanel-jasarevic/instablam-pwa-assignment/
+* Domain name: acrid-water.surge.sh
 
 Appen har byggts med två grundläggande funktioner, en funktions kod som hanterar galleriet och en som hanterar photo knappen.
 Gallery funktionskoden körs igång när hela webbsidan har laddat, photo funktionen körs bara om MediaDevice finns på webbläsaren.
